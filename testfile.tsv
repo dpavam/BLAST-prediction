@@ -1,0 +1,2 @@
+	id	method	type	nsequences	num_threads	query_length	databases_ncharacters_total	duration	duration_window
+0	6a0d7129-3b85-4a0b-b5de-30a7837bdba7	blastn	nucleotide	16	1	883	2150034	0.0	Less than 1 minute

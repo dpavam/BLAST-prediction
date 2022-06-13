@@ -1,0 +1,375 @@
+--- !ruby/object:SequenceServer::BLAST::Job
+id: 11f019e9-1435-40ca-b075-e2a022a8c7bd
+submitted_at: 2022-06-06 21:44:13.043760400 +01:00
+method: blastn
+qfile: "/home/dpavam/.sequenceserver/11f019e9-1435-40ca-b075-e2a022a8c7bd/query.fa"
+databases:
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Arabidopsis_thaliana_ecotype_Col-o_mitchondrion.fasta"
+  title: Arabidopsis thaliana ecotype Col-o mitchondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '367808'
+  updated_on: May 20, 2022  4:28 PM
+  format: '5'
+  categories: []
+  id: 8d5842050d6e97f2f81db7e9d385cb99
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/sequence(1).fasta"
+  title: Bee
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '318372'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 3633c69e658cae4d91d4829dc4a11576
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/sequence.fasta"
+  title: Bee 2
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16471'
+  updated_on: May 20, 2022  4:30 PM
+  format: '5'
+  categories: []
+  id: a1b19b1372f6c75fc21b70685df5c507
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Bombyx_mori_mitochondrion.fasta"
+  title: Bombyx mori mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '15643'
+  updated_on: May 20, 2022  4:28 PM
+  format: '5'
+  categories: []
+  id: cae3fd9e111e9901655cb2e49204a423
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Bos_taurus_mitochondrion.fasta"
+  title: Bos taurus mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16338'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: df45a4053ef5ddb4826591b8d074fa8c
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Canis_lupus_mitochondrion.fasta"
+  title: Canis lupus mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16729'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: b9e459ea39b0252754adaf3c3ff5e4b9
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Glycine_max_mitochondrion.fasta"
+  title: Glycine max mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '402558'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 55f15e43bc1bd75578a24a0e7a3c8655
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Homo_sapiens_mitochondrion.fasta"
+  title: Homo sapiens mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16569'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: d020e91ff7d98ce75e2e2a161456143b
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Macaca_mulatta_mitochondrion.fasta"
+  title: Macaca mulatta mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16564'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 716087cc8dddb9086ba866b74b4329a6
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Mus_musculus_mitochondrion.fasta"
+  title: Mus musculus mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16299'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: e3918d1e081a8795db360bf89fe3f6e5
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Nicotiana_tabacum_mitochondrion.fasta"
+  title: Nicotiana tabacum mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '430597'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: b9fa20297c4f31f00f344338ce2bcbbb
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Orchesella_cincta_mitochondrion.fasta"
+  title: Orchesella cincta mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '15728'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: ba51836af6eaee8ad3fee57082a6ed19
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Ovis_aries_mitochondrion.fasta"
+  title: Ovis aries mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16616'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 24551318a0303de4619c4c2d502f0bc7
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Rattus_norvegicus_strain_mitochondrion.fasta"
+  title: Rattus norvegicus strain mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '16313'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 73f7b4428174ea38a9f62aed8fe76697
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Rhipicephalus_microplus_isolate_Andaman_mitchondrion.fasta"
+  title: Rhipicephalus microplus isolate Andaman mitchondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '14903'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 28e274f0cadcf77a7f5fb6cb375ff3fd
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+- !ruby/struct:SequenceServer::Database
+  name: "/home/dpavam/db3/Triticum_aestivum_cultivar_Chinese_Yumai_mitochondrion.fasta"
+  title: Triticum aestivum cultivar Chinese Yumai mitochondrion
+  type: nucleotide
+  nsequences: '1'
+  ncharacters: '452526'
+  updated_on: May 20, 2022  4:29 PM
+  format: '5'
+  categories: []
+  id: 9001fd16be957f4233a8e049c7f36ef0
+  extensions:
+  - ndb
+  - nhd
+  - nhi
+  - nhr
+  - nin
+  - nog
+  - nos
+  - not
+  - nsq
+  - ntf
+  - nto
+advanced: "-task blastn -evalue 1e-5"
+options: "-task blastn -evalue 1e-5 -outfmt '11 qcovs qcovhsp' -num_threads 1"
+command: blastn -db '/home/dpavam/db3/Arabidopsis_thaliana_ecotype_Col-o_mitchondrion.fasta
+  /home/dpavam/db3/sequence(1).fasta /home/dpavam/db3/sequence.fasta /home/dpavam/db3/Bombyx_mori_mitochondrion.fasta
+  /home/dpavam/db3/Bos_taurus_mitochondrion.fasta /home/dpavam/db3/Canis_lupus_mitochondrion.fasta
+  /home/dpavam/db3/Glycine_max_mitochondrion.fasta /home/dpavam/db3/Homo_sapiens_mitochondrion.fasta
+  /home/dpavam/db3/Macaca_mulatta_mitochondrion.fasta /home/dpavam/db3/Mus_musculus_mitochondrion.fasta
+  /home/dpavam/db3/Nicotiana_tabacum_mitochondrion.fasta /home/dpavam/db3/Orchesella_cincta_mitochondrion.fasta
+  /home/dpavam/db3/Ovis_aries_mitochondrion.fasta /home/dpavam/db3/Rattus_norvegicus_strain_mitochondrion.fasta
+  /home/dpavam/db3/Rhipicephalus_microplus_isolate_Andaman_mitchondrion.fasta /home/dpavam/db3/Triticum_aestivum_cultivar_Chinese_Yumai_mitochondrion.fasta'
+  -query '/home/dpavam/.sequenceserver/11f019e9-1435-40ca-b075-e2a022a8c7bd/query.fa'
+  -task blastn -evalue 1e-5 -outfmt '11 qcovs qcovhsp' -num_threads 1
+completed_at: 2022-06-06 21:44:13.908670800 +01:00
+exitstatus: 0
+num_threads: 1
+query_length: 1012
+databases_ncharacters_total: 2150034
